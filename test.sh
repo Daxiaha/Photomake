@@ -24,7 +24,7 @@ function photo(){
 		while (( $int > 0 ))
 		do
 
-		termux-camera-photo -c 0 ${int}.jpg
+		termux-camera-photo -c 1 ${int}.jpg
 		let "int--"
 		
 		done
